@@ -1,0 +1,135 @@
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main_visual {
+    position: relative;
+}
+
+.bg {
+    background: url(../images/mainvisual03.jpg) no-repeat center center/cover;
+}
+
+.main_visual .bg {
+    height: 100vh;
+}
+
+.main_visual .tit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+    margin: 0 0 0 -585px;
+}
+
+.main_visual h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 30px 0;
+}
+
+.main_visual .tit p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.main_visual .service {
+    position: absolute;
+    bottom: 0;
+    left: 365px;
+    right: 0;
+    /* width: 100%; */
+
+
+}
+
+.main_visual .service .in {
+    background: #fff;
+    display: flex;
+    padding: 50px 50px;
+    height: 150px;
+    gap: 50px;
+}
+
+.main_visual .service .box {
+    flex: 1;
+    font-size: 20px;
+    font-weight: 400;
+    color: #444;
+
+}
+
+.main_content {
+    padding: 100px 0;
+    background: #f9f9f9;
+}
+
+.main_content .inner h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+.main_content .inner p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
+
+.main_content .img_box {
+    display: flex;
+    gap: 30px;
+}
+
+.main_content .img_box .con {
+    flex: 1;
+}
+
+.main_content .img_box .con figure {
+    margin: 0 0 20px 0;
+}
+
+.main_content .img_box .con p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+}
+
+.main_content .img_box .con a {
+    font-size: 15px;
+    font-weight: 300;
+    border: 1px solid #444;
+    padding: 4px 10px;
+}
+
+.sub_content {
+    padding: 100px 0;
+}
+
+.sub_content figcaption {
+    background: #ddd;
+    font-size: 18px;
+    font-weight: 300;
+
+    padding: 15px;
+}
+
+.sub_content figcaption h2 {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 0 0 10px 0;
+}
+
+.sub_content .event1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.sub_content .event2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
